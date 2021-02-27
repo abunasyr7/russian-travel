@@ -1,0 +1,33 @@
+.footer {
+    display: grid;
+    margin: 0 auto;
+    padding: 0 auto;
+    grid-template-columns: 0.4fr 0.4fr repeat(3, 0.5fr) 4fr;
+    justify-items: flex-start;
+    align-items: center;
+    column-gap: 18px;
+    max-width: 80%;
+}
+
+@media screen and (max-width: 950px) {
+    .footer {
+        display: grid;
+        margin: 0;
+        grid-template-columns: 0.4fr 0.4fr repeat(3, 0.5fr) 4fr;
+        justify-items: flex-start;
+        align-items: center;
+        column-gap: 18px;
+        max-width: 90%;
+    }
+    
+}
+
+@media screen and (max-width: 744px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 100%;
+        margin: 0;
+    }
+}

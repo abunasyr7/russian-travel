@@ -1,0 +1,16 @@
+.header {
+    display: grid;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 70%;
+    grid-template-columns: 90% 5% 5%;
+}
+
+@media screen and (max-width: 950px) {
+    .header {
+        display: grid;
+        margin: 0 auto;
+        max-width: 100%;
+        grid-template-columns: 8fr 2fr 2fr;
+    }
+}
