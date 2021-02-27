@@ -1,5 +1,6 @@
 .footer__copyright {
     justify-self: flex-end;
+    margin: 0;
     color: white;
 }
 
@@ -9,5 +10,6 @@
         font-family: 'Inter';
         font-weight: 400;
         line-height: 14px;
+        margin: 0;
     }
 }
