@@ -4,13 +4,15 @@
     width: 360px;
     height: 70px;
     color: white;
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 22px;
     text-align: center;
     z-index: 2;
     justify-items: center;
     align-items: center;
+    text-decoration: none;
+    position: relative;
 }
 
 
@@ -27,5 +29,7 @@
         z-index: 2;
         justify-items: center;
         align-items: center;
+        text-decoration: none;
+        position: relative;
     }
 }
