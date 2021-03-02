@@ -3,7 +3,7 @@
     flex-direction: column;
     margin: 0 auto;
     padding: 0;
-    max-width: 80%;
+    max-width: 990px;
     margin-bottom: 80px;
 }
 
@@ -17,5 +17,11 @@
         margin-bottom: 80px;
         padding: 0;
         max-width: 100%;
+    }
+}
+
+@media screen and (max-width:744px) {
+    .place:last-child {
+        margin-bottom: 0;
     }
 }

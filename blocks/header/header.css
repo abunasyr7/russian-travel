@@ -2,15 +2,25 @@
     display: grid;
     margin: 0 auto;
     padding: 0;
-    max-width: 100%;
-    grid-template-columns: 90% 5% 5%;
+    max-width: 90%;
+    margin-bottom: 56px;
+    grid-template-columns: 90% 10%;
+}
+
+
+@media screen and (max-width:1100px) {
+    .header {
+        max-width: 80%;
+        grid-template-columns: 85% 15%;
+        margin-bottom: 48px;
+    }
 }
 
 @media screen and (max-width: 950px) {
     .header {
-        display: grid;
-        margin: 0 auto;
-        max-width: 100%;
-        grid-template-columns: 8fr 2fr 2fr;
+        max-width: 95%;
+        grid-template-columns: 8fr 2fr;
+        align-items: center;
+        margin-bottom: 48px;
     }
 }

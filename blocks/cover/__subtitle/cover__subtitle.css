@@ -2,7 +2,6 @@
     margin: 0 auto;
     grid-area: subtitle;
     width: 360px;
-    height: 70px;
     color: white;
     font-size: 18px;
     font-weight: 400;
@@ -18,18 +17,7 @@
 
 @media screen and (max-width: 744px) {
     .cover__subtitle {
-        margin: 0 auto;
-        grid-area: subtitle;
         max-width: 288px;
-        color: white;
         font-size: 14px;
-        font-weight: 400;
-        line-height: 16px;
-        text-align: center;
-        z-index: 2;
-        justify-items: center;
-        align-items: center;
-        text-decoration: none;
-        position: relative;
     }
 }
