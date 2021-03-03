@@ -3,3 +3,10 @@
     font-family: "Inter", "Arial ", sans-serif;
     color: white;
 }
+
+
+@media screen and (max-width: 600px) {
+    .body{
+        max-width: 320px;
+    }
+}

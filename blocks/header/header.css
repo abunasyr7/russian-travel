@@ -10,7 +10,7 @@
 
 @media screen and (max-width:1100px) {
     .header {
-        max-width: 80%;
+        max-width: 928px;
         grid-template-columns: 85% 15%;
         margin-bottom: 48px;
     }

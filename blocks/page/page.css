@@ -7,7 +7,5 @@
 @media screen and (max-width: 950px) {
     .page {
         max-width: 100%;
-        margin: 0 auto;
-        color: white;
     }
 }

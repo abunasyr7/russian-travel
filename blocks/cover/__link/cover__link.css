@@ -9,10 +9,6 @@
         "overlay";
         text-decoration: none;
     }
-.cover__link:hover {
-    opacity: 0.8;
-}
-
 @media screen and (max-width: 744px) {
     .cover__link {
         margin-bottom: 64px;

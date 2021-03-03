@@ -5,9 +5,7 @@
 
 @media screen and (max-width: 744px) {
     .photo-grid__image {
-        max-width: 100%;
         margin: 0 auto;
-        object-fit: scale-down;
     }
 
     .photo-grid__image:last-child {

@@ -4,3 +4,7 @@
     margin-bottom: 92px;
 }
 
+.cover:hover {
+    background-color: #2A2C2F;
+    opacity: 30%;
+}

@@ -21,10 +21,10 @@
     .place__location {
         display: flex;
         flex-direction: column;
-        margin: 0;
+        margin: 0 auto; 
         align-items: flex-start;
         justify-items: flex-start;
-        max-width: 100%;
         margin-bottom: 32px;
+        max-width: 288px;
     }
 }
