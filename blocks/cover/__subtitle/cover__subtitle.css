@@ -11,9 +11,7 @@
     justify-items: center;
     align-items: center;
     text-decoration: none;
-    position: relative;
 }
-
 
 @media screen and (max-width: 744px) {
     .cover__subtitle {
